@@ -1,4 +1,8 @@
-body{
-    color:blue;
-    border-color: aquamarine;
-}
+@import "globalvar";
+@import "root";
+@import "./pages/index/index";
+@import "./pages/index/header";
+@import "./components/nav";
+@import "./pages/index/bienv";
+@import "./pages/index/carrousel";
+@import "./components/footer";

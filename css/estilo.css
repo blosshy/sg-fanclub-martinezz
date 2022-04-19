@@ -1,3 +1,59 @@
-body {
-  color: blue;
-  border-color: aquamarine; }
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  background-image: url("../imagenes/sg-fondo.jpg"); }
+
+.borde {
+  border: 3px solid #B2B7D2; }
+
+.header {
+  background-image: url(../imagenes/fondo-header.png); }
+
+.header__titulo {
+  font-family: 'Spectral SC', serif;
+  color: #B2B7D2;
+  letter-spacing: 10px; }
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 4px solid #121555; }
+
+.nav__enlaces {
+  font-family: 'Radley', serif;
+  color: #B2B7D2;
+  transition: color 1s, transform 1s; }
+  .nav__enlaces:hover {
+    color: rgba(220, 174, 247, 0.952);
+    transform: scale(1.1); }
+
+.divisor {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  overflow: hidden; }
+
+.bienvTitulo {
+  font-family: 'Radley', serif;
+  color: #B2B7D2; }
+
+.bienvTexto {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #B2B7D2;
+  border-top: 3px solid #B2B7D2;
+  border-bottom: 3px solid #B2B7D2;
+  font-family: 'Radley', serif; }
+
+.colorVioleta {
+  color: #8852DE; }
+
+.carouselText {
+  color: #B2B7D2; }
+
+.footer {
+  color: #979dbb;
+  font-size: 13px;
+  border-top: 1px solid #121555;
+  border-bottom: 1px solid #121555;
+  background-color: #0a0c2b; }

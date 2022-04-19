@@ -1,0 +1,23 @@
+.divisor {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.bienvTitulo {
+    font-family: 'Radley', serif;
+    color: $colorBlanco;
+}
+
+.bienvTexto {
+    background-color: hsla(0, 0%, 100%, .05);
+    color: $colorBlanco;
+    border-top: 3px solid #B2B7D2;
+    border-bottom: 3px solid #B2B7D2;
+    font-family: 'Radley', serif;
+}
+
+.colorVioleta {
+    color: $colorViolet;
+}
