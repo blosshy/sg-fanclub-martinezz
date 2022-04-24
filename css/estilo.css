@@ -125,3 +125,24 @@
 
 .ahri__fraseGif {
   background-color: rgba(255, 255, 255, 0.05); }
+
+.star__violet {
+  width: 2rem;
+  padding-bottom: 5px; }
+
+.fdp__img {
+  width: 700px;
+  border: 2px solid #B2B7D2;
+  margin-bottom: 0.5rem; }
+
+.titulos__galeria, .titulos__videos {
+  font-family: 'Radley', serif;
+  color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05); }
+
+.texto__fdp {
+  color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05); }
+
+.titulos__videos {
+  font-family: Arial, Helvetica, sans-serif; }
