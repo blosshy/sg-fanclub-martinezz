@@ -11,7 +11,7 @@
 .header {
   background-image: url(../imagenes/fondo-header.png); }
 
-.header__titulo {
+.header__titulo, .teamTitulo {
   font-family: 'Spectral SC', serif;
   color: #B2B7D2;
   letter-spacing: 10px; }
@@ -57,3 +57,35 @@
   border-top: 1px solid #121555;
   border-bottom: 1px solid #121555;
   background-color: #0a0c2b; }
+
+.teamTitulo {
+  text-transform: uppercase;
+  padding: 60px;
+  background-image: url(../imagenes/headerfondo.jpg);
+  letter-spacing: 5px; }
+
+.texto__header {
+  font-family: 'Radley', serif;
+  color: #D1CAF3;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #B2B7D2; }
+
+.img__guardiana {
+  border: 2px solid #B2B7D2;
+  margin-bottom: 0.5rem;
+  transition: background-color 1s, padding 1s; }
+  .img__guardiana:hover {
+    background-color: #949fff96;
+    padding: 0.5rem; }
+
+.nombre__guardiana {
+  text-decoration: none;
+  color: #D1CAF3;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 5px solid rgba(255, 255, 255, 0.05);
+  transition: background-color 1s, padding 1s; }
+  .nombre__guardiana:hover {
+    background-color: #222b7c96;
+    padding: 0.5rem; }

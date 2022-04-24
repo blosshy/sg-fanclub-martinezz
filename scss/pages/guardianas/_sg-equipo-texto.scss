@@ -1,0 +1,14 @@
+.teamTitulo{
+    @extend .header__titulo;
+    text-transform: uppercase;
+    padding: 60px;
+    background-image: url(../imagenes/headerfondo.jpg);
+    letter-spacing: 5px;
+}
+
+.texto__header {
+    font-family: 'Radley', serif;
+    color: #D1CAF3;
+    background-color: hsla(0, 0%, 100%, .05);
+    border: 2px solid #B2B7D2;
+}
