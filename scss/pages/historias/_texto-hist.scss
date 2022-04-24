@@ -1,0 +1,18 @@
+.texto__historias{
+    color: white;
+    background-color: hsla(0, 0%, 100%, .05);
+    font-family: 'Radley', serif;
+}
+
+.enlaces-h{
+    text-decoration: none;
+}
+
+.borde1{
+    border-top: 1px solid #B2B7D2;
+}
+
+.borde2{
+    @extend .borde1;
+    border-bottom: 1px solid #B2B7D2;
+}

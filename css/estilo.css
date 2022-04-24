@@ -146,3 +146,27 @@
 
 .titulos__videos {
   font-family: Arial, Helvetica, sans-serif; }
+
+.starfall {
+  border: 9px solid #B2B7D2;
+  height: 25rem;
+  background-image: url(../imagenes/starfall.jpg); }
+
+.pijama {
+  border: 9px solid #B2B7D2;
+  height: 25rem;
+  background-image: url(../imagenes/pijama.jpg); }
+
+.texto__historias {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-family: 'Radley', serif; }
+
+.enlaces-h {
+  text-decoration: none; }
+
+.borde1, .borde2 {
+  border-top: 1px solid #B2B7D2; }
+
+.borde2 {
+  border-bottom: 1px solid #B2B7D2; }
