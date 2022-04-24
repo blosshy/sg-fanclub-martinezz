@@ -39,8 +39,8 @@
   color: #B2B7D2; }
 
 .bienvTexto {
-  background-color: rgba(255, 255, 255, 0.05);
   color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05);
   border-top: 3px solid #B2B7D2;
   border-bottom: 3px solid #B2B7D2;
   font-family: 'Radley', serif; }
@@ -81,11 +81,47 @@
 .nombre__guardiana {
   text-decoration: none;
   color: #D1CAF3;
+  background-color: rgba(255, 255, 255, 0.05);
   font-family: 'Times New Roman', Times, serif;
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.05);
   border: 5px solid rgba(255, 255, 255, 0.05);
   transition: background-color 1s, padding 1s; }
   .nombre__guardiana:hover {
     background-color: #222b7c96;
     padding: 0.5rem; }
+
+.titulo__header__ahri {
+  font-family: 'Spectral SC', serif;
+  color: #C994FF;
+  border: 4px solid #121555;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  background-image: url(../imagenes/nombres-fondo.png); }
+
+.estrella__nombres {
+  height: 40px;
+  width: 40px; }
+
+.titulos__ahri {
+  font-family: 'Radley', serif;
+  text-align: center;
+  color: #B2B7D2;
+  border: #21257e 1px solid; }
+
+.textos__ahri {
+  text-align: justify;
+  font-size: 1.8rem;
+  word-spacing: 1px;
+  font-family: 'Radley', serif;
+  color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem; }
+
+.frase__ahri {
+  font-family: 'Radley', serif;
+  color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 3px solid #B2B7D2; }
+
+.ahri__fraseGif {
+  background-color: rgba(255, 255, 255, 0.05); }

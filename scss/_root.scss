@@ -10,3 +10,8 @@
 .borde{
     border: $borde;
 }
+
+@mixin fondotext ($color,$background-color){
+    color: $color;
+    background-color: $background-color;
+}

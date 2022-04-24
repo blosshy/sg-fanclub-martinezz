@@ -11,10 +11,9 @@
 
 .nombre__guardiana {
     text-decoration: none;
-    color: #D1CAF3;
+    @include fondotext (#D1CAF3,hsla(0, 0%, 100%, .05));
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
-    background-color: hsla(0, 0%, 100%, .05);
     border: 5px solid hsla(0, 0%, 100%, .05);
     transition: background-color 1s, padding 1s;
 

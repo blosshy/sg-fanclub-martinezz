@@ -11,8 +11,7 @@
 }
 
 .bienvTexto {
-    background-color: hsla(0, 0%, 100%, .05);
-    color: $colorBlanco;
+    @include fondotext ($colorBlanco,hsla(0, 0%, 100%, .05));
     border-top: 3px solid #B2B7D2;
     border-bottom: 3px solid #B2B7D2;
     font-family: 'Radley', serif;
