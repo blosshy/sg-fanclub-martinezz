@@ -8,6 +8,6 @@
 
 .texto__header {
     font-family: 'Radley', serif;
-    @include fondotext (#D1CAF3,hsla(0, 0%, 100%, .05));
-    border: 2px solid #B2B7D2;
+    @include fondotext (#D1CAF3,$fondotransparente);
+    border: 2px solid $colorBlanco;
 }

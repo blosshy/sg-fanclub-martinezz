@@ -1,6 +1,5 @@
 .texto__historias{
-    color: white;
-    background-color: hsla(0, 0%, 100%, .05);
+    @include fondotext (white,$fondotransparente);
     font-family: 'Radley', serif;
 }
 
@@ -9,10 +8,10 @@
 }
 
 .borde1{
-    border-top: 1px solid #B2B7D2;
+    border-top: 1px solid $colorBlanco;
 }
 
 .borde2{
     @extend .borde1;
-    border-bottom: 1px solid #B2B7D2;
+    border-bottom: 1px solid $colorBlanco;
 }

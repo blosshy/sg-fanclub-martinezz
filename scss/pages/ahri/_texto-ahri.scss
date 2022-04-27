@@ -3,12 +3,12 @@
     font-size: 1.8rem;
     word-spacing: 1px;
     font-family: 'Radley', serif;
-    @include fondotext (#B2B7D2,hsla(0, 0%, 100%, .05));
+    @include fondotext ($colorBlanco,$fondotransparente);
     padding: 1rem;
 }
 
 .frase__ahri{
     font-family: 'Radley', serif;
-    @include fondotext (#B2B7D2,hsla(0, 0%, 100%, .05));
-    border: 3px solid #B2B7D2;
+    @include fondotext ($colorBlanco,$fondotransparente);
+    border: $borde;
 }

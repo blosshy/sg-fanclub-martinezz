@@ -1,13 +1,13 @@
 .titulos__galeria{
     font-family: 'Radley', serif;
-    @include fondotext(#B2B7D2,hsla(0, 0%, 100%, .05));
-}
-
-.texto__fdp{
-    @include fondotext(#B2B7D2,hsla(0, 0%, 100%, .05));
+    @include fondotext ($colorBlanco,$fondotransparente);
 }
 
 .titulos__videos {
     @extend .titulos__galeria;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto__fdp{
+    @extend .titulos__videos;
 }

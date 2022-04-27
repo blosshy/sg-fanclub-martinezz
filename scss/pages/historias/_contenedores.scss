@@ -1,13 +1,13 @@
-$estilos: (border:9px solid #B2B7D2,height:25rem,fondo1:url(../imagenes/starfall.jpg),fondo2:url(../imagenes/pijama.jpg));
+$estilos: (border:9px solid $colorBlanco,height:25rem,fondo1:url(../imagenes/starfall.jpg),fondo2:url(../imagenes/pijama.jpg));
 
 .starfall{
     border: map-get($map: $estilos, $key:border );
-    height: map-get($map: $estilos, $key: height );
+    height: map-get($map: $estilos, $key:height );
     background-image: map-get($map: $estilos, $key:fondo1 );
 }
 
 .pijama{
     border: map-get($map: $estilos, $key:border );
-    height: map-get($map: $estilos, $key: height );
+    height: map-get($map: $estilos, $key:height );
     background-image: map-get($map: $estilos, $key:fondo2 );
 }

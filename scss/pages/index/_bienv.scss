@@ -1,7 +1,4 @@
 .divisor {
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -11,9 +8,9 @@
 }
 
 .bienvTexto {
-    @include fondotext ($colorBlanco,hsla(0, 0%, 100%, .05));
-    border-top: 3px solid #B2B7D2;
-    border-bottom: 3px solid #B2B7D2;
+    @include fondotext ($colorBlanco,$fondotransparente);
+    border-top: $borde;
+    border-bottom: $borde;
     font-family: 'Radley', serif;
 }
 

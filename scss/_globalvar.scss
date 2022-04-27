@@ -4,4 +4,6 @@ $colorBlanco: #B2B7D2;
 
 $colorViolet: #8852DE;
 
-$borde: 3px solid #B2B7D2;
+$fondotransparente: hsla(0, 0%, 100%, .05);
+
+$borde: 3px solid $colorBlanco;
