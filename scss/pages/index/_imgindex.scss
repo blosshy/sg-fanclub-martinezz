@@ -4,6 +4,7 @@
     }
     .index__img__mobile{
         display: unset;
+        border: $borde;
     }
     .index__img__tablet{
         display: none;
@@ -19,12 +20,14 @@
     }
     .index__img__tablet{
         display:unset;
+        border: $borde;
     }
 }
 
 @media screen and (min-width:1201px){
     .index__img__pc{
         display: unset;
+        border: $borde;
     }
     .index__img__mobile{
         display: none;

@@ -52,14 +52,14 @@
   border-radius: 20px; }
 
 .guardianaText {
-  color: #B2B7D2;
-  background-color: rgba(255, 255, 255, 0.05); }
+  color: #B2B7D2; }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .index__img__pc {
     display: none; }
   .index__img__mobile {
-    display: unset; }
+    display: unset;
+    border: 3px solid #B2B7D2; }
   .index__img__tablet {
     display: none; } }
 
@@ -69,11 +69,13 @@
   .index__img__mobile {
     display: none; }
   .index__img__tablet {
-    display: unset; } }
+    display: unset;
+    border: 3px solid #B2B7D2; } }
 
 @media screen and (min-width: 1201px) {
   .index__img__pc {
-    display: unset; }
+    display: unset;
+    border: 3px solid #B2B7D2; }
   .index__img__mobile {
     display: none; }
   .index__img__tablet {
