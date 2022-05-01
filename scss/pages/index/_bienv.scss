@@ -5,15 +5,24 @@
 .bienvTitulo {
     font-family: 'Radley', serif;
     color: $colorBlanco;
+    letter-spacing: 6px;
 }
 
 .bienvTexto {
-    @include fondotext ($colorBlanco,$fondotransparente);
-    border-top: $borde;
-    border-bottom: $borde;
+    color: $colorBlanco;
     font-family: 'Radley', serif;
 }
 
 .colorVioleta {
     color: $colorViolet;
+}
+
+.contenedor-bienv{
+    background: rgba( 89, 86, 210, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 20px;
+    border-left: $borde;
+    border-right: $borde;
 }

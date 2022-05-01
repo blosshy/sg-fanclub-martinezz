@@ -34,20 +34,53 @@
 
 .bienvTitulo {
   font-family: 'Radley', serif;
-  color: #B2B7D2; }
+  color: #B2B7D2;
+  letter-spacing: 6px; }
 
 .bienvTexto {
   color: #B2B7D2;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-top: 3px solid #B2B7D2;
-  border-bottom: 3px solid #B2B7D2;
   font-family: 'Radley', serif; }
 
 .colorVioleta {
   color: #8852DE; }
 
-.carouselText {
-  color: #B2B7D2; }
+.contenedor-bienv {
+  background: rgba(89, 86, 210, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border-left: 3px solid #B2B7D2;
+  border-right: 3px solid #B2B7D2; }
+
+.guardianaText {
+  color: #B2B7D2;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px; }
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .index__img__pc {
+    display: none; }
+  .index__img__mobile {
+    display: unset; }
+  .index__img__tablet {
+    display: none; } }
+
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+  .index__img__pc {
+    display: none; }
+  .index__img__mobile {
+    display: none; }
+  .index__img__tablet {
+    display: unset; } }
+
+@media screen and (min-width: 1201px) {
+  .index__img__pc {
+    display: unset; }
+  .index__img__mobile {
+    display: none; }
+  .index__img__tablet {
+    display: none; } }
 
 .footer {
   color: #979dbb;
