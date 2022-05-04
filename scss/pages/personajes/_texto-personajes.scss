@@ -1,4 +1,4 @@
-.textos__ahri{
+.textos__personajes{
     text-align: justify;
     font-size: 1.8rem;
     word-spacing: 1px;
@@ -7,7 +7,7 @@
     padding: 1rem;
 }
 
-.frase__ahri{
+.frase__personajes{
     font-family: 'Radley', serif;
     @include fondotext ($colorBlanco,$fondotransparente);
     border: $borde;
