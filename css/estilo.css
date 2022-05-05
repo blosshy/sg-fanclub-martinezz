@@ -197,11 +197,23 @@ a {
   border: 9px solid #B2B7D2;
   height: 25rem;
   background-image: url(../imagenes/starfall.jpg); }
+  .starfall:hover {
+    border: 9px solid #321e50; }
+  .starfall:hover .borde1, .starfall:hover .borde2 {
+    border-top: 3px solid #321e50; }
+  .starfall:hover .borde2 {
+    border-bottom: 3px solid #321e50; }
 
 .pijama {
   border: 9px solid #B2B7D2;
   height: 25rem;
   background-image: url(../imagenes/pijama.jpg); }
+  .pijama:hover {
+    border: 9px solid #439179; }
+  .pijama:hover .borde1, .pijama:hover .borde2 {
+    border-top: 3px solid #439179; }
+  .pijama:hover .borde2 {
+    border-bottom: 3px solid #439179; }
 
 .texto__historias {
   color: white;
