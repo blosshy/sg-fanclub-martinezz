@@ -216,3 +216,34 @@ a {
 
 .borde2 {
   border-bottom: 1px solid #B2B7D2; }
+
+.texto__rosa {
+  color: #ff02a6; }
+
+.nombre__capitulo {
+  color: #fff; }
+
+.texto__capitulos {
+  color: #B2B7D2; }
+
+.pagination li {
+  margin-left: .25rem;
+  margin-right: .25rem; }
+
+.pagination li .page-link {
+  border-radius: .25rem;
+  border: none;
+  min-width: 2.25rem;
+  text-align: center;
+  color: white;
+  background-color: #603a99; }
+
+.pagination li.disabled .page-link {
+  color: white;
+  background-color: #603a99; }
+
+.pagination li.active .page-link,
+.pagination li .page-link:hover {
+  background-color: #8a66c0;
+  color: white;
+  font-weight: bold; }
